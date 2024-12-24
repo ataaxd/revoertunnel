@@ -14,7 +14,7 @@ NC='\e[0m'
 apt update && apt upgrade
 apt install python3 python3-pip git
 cd /usr/bin
-wget https://raw.githubusercontent.com/ataarevoer/revoertunnel/main/bot/bot.zip
+wget https://raw.githubusercontent.com/ataaxd/revoertunnel/main/bot/bot.zip
 unzip bot.zip
 mv bot/* /usr/bin
 chmod +x /usr/bin/*
